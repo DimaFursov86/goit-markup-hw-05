@@ -202,9 +202,20 @@ img {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
-
+.operating-page-wraper {
+  position: relative;
+}
 .operating-page {
   color: var(--accent-operating);
+}
+.operating-page-line {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-operating);
+  border-radius: 2px;
 }
 /* ===============End Header=============== */
 
